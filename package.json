@@ -11,7 +11,19 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "_moduleAliases": {
+    "@/resources": "dist/resources",
+    "@/utils": "dist/utils",
+    "@/middlewares": "dist/middlewares",
+    "@/services": "dist/services",
+    "@/config": "dist/config",
+    "@/controllers": "dist/controllers",
+    "@/routes": "dist/routes",
+    "@/constants": "dist/constants",
+    "@/models": "dist/models"
+  },
   "dependencies": {
+    "celebrate": "^15.0.3",
     "cors": "^2.8.5",
     "envalid": "^8.0.0",
     "express": "^4.19.2",
